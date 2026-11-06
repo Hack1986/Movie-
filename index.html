@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10131d"><meta name="description" content="123HDC Web App">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>123HDC Web App</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><span class="logo">123</span><span>HDC <small>WEB APP</small></span></a>
+  <button id="installBtn" class="install" hidden>ติดตั้งแอป</button>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">YOUR ENTERTAINMENT HUB</div>
+    <h1>ดูหนังและซีรีส์<br><span>ในแอปเดียว</span></h1>
+    <p>ทางลัดเข้าเว็บไซต์ 123HDC ในรูปแบบเว็บแอป ติดตั้งบนหน้าจอมือถือได้</p>
+    <div class="actions">
+      <button id="openBtn" class="primary">เปิดเว็บไซต์ 123HDC ↗</button>
+      <button id="reloadBtn" class="secondary">โหลดหน้าเว็บใหม่</button>
+    </div>
+  </section>
+  <nav class="quick">
+    <a href="https://www.123-hdc.com/" target="siteframe">หน้าแรก</a>
+    <a href="https://www.123-hdc.com/" target="_blank" rel="noopener">เปิดในเบราว์เซอร์ ↗</a>
+  </nav>
+  <section class="browser-wrap">
+    <div class="browser-head"><span class="dot"></span><span class="dot"></span><span class="dot"></span><b>123-hdc.com</b></div>
+    <iframe id="siteframe" name="siteframe" title="เว็บไซต์ 123HDC" src="https://www.123-hdc.com/" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <div id="fallback" class="fallback" hidden>
+      <h2>เว็บไซต์ไม่อนุญาตให้แสดงในกรอบแอป</h2>
+      <p>กดปุ่มด้านล่างเพื่อเปิดเว็บไซต์โดยตรงในเบราว์เซอร์ของคุณ</p>
+      <a class="primary linkbtn" href="https://www.123-hdc.com/" target="_blank" rel="noopener">เปิด 123HDC ↗</a>
+    </div>
+  </section>
+  <p class="notice">เว็บแอปนี้เป็นทางลัดสำหรับเข้าถึงเว็บไซต์ต้นทาง ไม่ได้โฮสต์ คัดลอก หรือจัดเก็บภาพยนตร์/วิดีโอ</p>
+</main>
+<footer>123HDC Web App · ใช้งานผ่านอินเทอร์เน็ต</footer>
+<script src="app.js"></script>
+</body></html>
